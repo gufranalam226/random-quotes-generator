@@ -1,0 +1,62 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.quotesbody{
+    height: 200px;
+    width: 300px;
+    background-color: rgb(187, 219, 245);
+    margin: auto;
+    border: 2px solid rgb(161, 172, 181);
+    box-shadow: grey 3px 3px 4px;
+    border-radius: 6px;
+    margin-top: 20px;
+    padding: 15px;
+}
+
+.quotes{
+    height: 65%;
+    width: 85%;
+    margin: auto;
+    font-size: 14px;
+    background-color: rgb(129, 247, 247);
+    padding: 15px;
+    border-radius: 8px;
+    user-select: none;
+    position: relative;
+}
+
+.ticon{
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+.author{
+    margin-top: 5px;
+    font-style: italic;
+    font-size: 12px;
+    float: right;
+}
+
+.rdmqts, .rdmqts>button{
+    height: 40px;
+    width: 85%;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 8px;
+    border: none;
+    box-shadow: gray 1px 1px 3px;
+}
+
+.rdmqts>button{
+    height: 40px;
+    width: 100%;
+    margin: auto;
+    cursor: pointer;
+    font-size: 1.2rem;
+    font-weight: bolder;
+}
